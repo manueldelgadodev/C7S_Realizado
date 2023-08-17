@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.descuento-20{
+    background-color:#1CD1B0;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.description-20{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color:#00669F;
+    padding-top:2%;
+    padding-bottom:2%;
+    box-shadow: 0px 12px 25px -10px rgba(1, 1, 1, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.titulo{
+    width: 90%;
+    margin: auto;
+}
+body {
+    background-color: rgb(242, 242, 242);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/* Inicia estilos de cards */
+.cards_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+    padding-top: 150px;
+}
+.cards_container .card{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.436);
+    overflow: hidden;
+    position: relative;
+}
+.batman{
+    position: absolute;
+    border-radius: 50%;
+    top: 25%;
+    left: 30%;
+}
+.icon-cora{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+}
+.text{
+    margin-top:15%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* EJE Y */
+    gap: 1em;
+}
+.text h3{
+    font-size: 30px;
+}
+.text p{
+    text-align: justify;
+}
+.button {
+    background-color: #00669F;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+
+/* Pie de página */
+footer{
+    color:white;
+    background-color: #00669F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10%;
+}
+p{
+    width: 90%;
+    margin: auto;
+}
